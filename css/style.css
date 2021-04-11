@@ -53,6 +53,14 @@ a.menu-logo {
      font-size: 1.125em;
  }
 
+@media only screen and (max-width: 739px) {
+    .menu-nav { 
+        float: none;
+        clear: both;
+       }
+
+ }
+
  /* Intro */
 
  .intro {
@@ -80,6 +88,12 @@ a.menu-logo {
 .intro p {
     font-style: italic;
     font-size: 1.125em;
+}
+
+@media only screen and (max-width: 739px) {
+    .intro {
+        padding: 60px 0;
+    }
 }
 
  /* Intro */
@@ -130,6 +144,25 @@ a.menu-logo {
     text-align: center;
     margin: 20px auto;
     max-width: 460px;
+}
+
+@media only screen and (min-width: 740px) and (max-width: 980px) {
+    .sobre-container {
+        max-width: 720px;
+    }
+    .sobre-item {
+        width: 340px;
+    }
+}
+
+@media only screen and (max-width: 739) {
+    .sobre-container {
+        max-width: 300px;
+    }
+    .sobre-item {
+        width: 300px;
+        margin: 0 auto;
+    }
 }
 
  /* Produtos */
@@ -205,6 +238,24 @@ a.menu-logo {
     text-align: center;
     padding: 15px 0;
     margin: 20px auto 0 auto;
+}
+
+@media only screen and (min-width: 740px) and (max-width: 980px) {
+    .produtos-container {
+        max-width: 720px;
+    }
+    .produtos-item {
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width: 739) {
+    .produtos-container {
+        max-width: 300px;
+    }
+    .produtos-item {
+        margin: 0 auto 20px auto;
+    }
 }
 
  /* Locais */
